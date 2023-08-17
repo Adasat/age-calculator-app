@@ -1,0 +1,103 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+
+.card {
+  background-color: white;
+  width: 1000px;
+  padding: 30px;
+  border-radius: 15px;
+  border-bottom-right-radius: 150px;
+}
+
+.inputs {
+  display: flex;
+  align-items: center;
+  width: 75%;
+  gap: 25px;
+  color: hsl(0, 1%, 44%);
+}
+
+.label{
+  font-size: 8px;
+  letter-spacing: 2px;
+  color: hsl(0, 1%, 44%);
+}
+
+.inputFormat{
+  width: 100px;
+  height: 35px;
+  border-radius: 5px;
+  border: 1px solid hsl(0, 0%, 86%);
+  padding: 5px;
+  font-weight: 800;
+  font-size: 22px;
+  padding-left: 20px;
+}
+
+.dayInput {
+  display: flex;
+  flex-direction: column;
+  gap: 5px
+}
+
+.monthInput {
+  display: flex;
+  flex-direction: column;
+  gap: 5px
+}
+
+.yearInput {
+  display: flex;
+  flex-direction: column;
+  gap: 5px
+}
+
+.divider{
+  display: flex;
+  margin-top: 10px;
+}
+
+.boundaries{
+  width: 80%;
+}
+
+.lines{
+  border-bottom: 1px solid hsl(0, 0%, 86%);
+}
+
+.button{
+  display: flex;
+  justify-content: center;
+  height: 70px;
+  width: 70px;
+  border-radius: 100%;
+  background-color: hsl(259, 100%, 65%);
+  cursor: pointer;
+}
+
+img{
+  width: 50%;
+}
+
+.result{
+  display: flex;
+  flex-direction: column;
+  font-weight: 800;
+  font-style: italic;
+  font-size: 70px;
+  line-height: 80px;
+}
+
+.resultState{
+  color: hsl(259, 100%, 65%)
+}
+
+
+
+
+
+
