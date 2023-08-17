@@ -7,7 +7,7 @@
 
 .card {
   background-color: white;
-  width: 1000px;
+  width: 700px;
   padding: 30px;
   border-radius: 15px;
   border-bottom-right-radius: 150px;
@@ -65,15 +65,13 @@
   width: 80%;
 }
 
-.lines{
-  border-bottom: 1px solid hsl(0, 0%, 86%);
-}
+
 
 .button{
   display: flex;
   justify-content: center;
-  height: 70px;
-  width: 70px;
+  height: 90px;
+  width: 90px;
   border-radius: 100%;
   background-color: hsl(259, 100%, 65%);
   cursor: pointer;
@@ -96,6 +94,65 @@ img{
   color: hsl(259, 100%, 65%)
 }
 
+@media screen and (min-width: 370px) and (max-width: 500px){
+  .card {
+    background-color: white;
+    width: 90vw;
+    padding: 10px;
+    border-radius: 15px;
+    border-bottom-right-radius: 150px;
+  }
+
+    .inputs {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      gap: 25px;
+      color: hsl(0, 1%, 44%);
+      margin-top: 20px;
+    }
+
+  .inputFormat{
+    width: 70px;
+    height: 35px;
+    border-radius: 5px;
+    border: 1px solid hsl(0, 0%, 86%);
+    padding: 5px;
+    font-weight: 800;
+    padding-left: 9px;
+  }
+    .divider {
+      width: 100%;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    .boundaries {
+      width: 0%
+    }
+
+    .button{
+      width: 60px;
+      height: 60px;
+      margin-top: 20px;
+    }
+
+    .result {
+      display: flex;
+      flex-direction: column;
+      font-weight: 800;
+      font-style: italic;
+      font-size: 55px;
+      padding: 10px;
+      line-height: 60px;
+      margin-top: 20px;
+      margin-bottomnn: 20px
+    }
+
+
+  
+}
 
 
 

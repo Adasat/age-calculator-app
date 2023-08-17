@@ -1,18 +1,18 @@
 import React from 'react'
 
-function ShowResults({years, months, days}) {
+function ShowResults({years, months, days, validation}) {
     return (
       <div className="result">
         <div>
-          <span className="resultState">{years === "" ? "--" : years}</span>{" "}
+          <span className="resultState">{validation ? years : "--"}</span>{" "}
           <span>years</span>
         </div>
         <div>
-          <span className="resultState">{months === "" ? "--" : months}</span>{" "}
+          <span className="resultState">{validation ? months : "--"}</span>{" "}
           <span>months</span>
         </div>
         <div>
-          <span className="resultState">{days === "" ? "--" : days}</span>{" "}
+          <span className="resultState">{validation ? days : "--"}</span>{" "}
           <span>days</span>
         </div>
       </div>
