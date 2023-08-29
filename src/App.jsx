@@ -95,6 +95,7 @@ function App() {
             onDayChange={handleDayChange}
             onMonthChange={handleMonthChange}
             onYearChange={handleYearChange}
+            errors={validationErrors}
           />
           <div className="divider">
             <div className="boundaries"></div>

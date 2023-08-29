@@ -1,5 +1,13 @@
+import { useState } from "react";
+
 
 function InputForm(props) {
+
+  const [errorDayState, setErrorDayState] = useState(false)
+  const [errorMonthState, setErrorMonthState] = useState(false);
+  const [errorYearState, setErrorYearState] = useState(false);
+
+  console.log(props.errors)
   return (
     <div className="inputs">
       <div className="dayInput">
@@ -20,6 +28,7 @@ function InputForm(props) {
           placeholder="MM"
           className="inputFormat"
           onChange={(e) => props.onMonthChange(e.target.value)}
+          helperText
         />
       </div>
       <div className="yearInput">
